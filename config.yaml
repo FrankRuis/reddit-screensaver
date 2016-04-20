@@ -1,0 +1,68 @@
+settings:
+  user-agent: screensaver python script by /u/bearific
+  font: arial
+  font-size: 26
+  formats:
+  - .jpg
+  - .png
+  - .jpeg
+  - .tiff
+  - .bmp
+  img-height: 480
+  img-width: 840
+  chars-line: 58
+  count: 10
+  retries: 5
+
+images:
+  earthporn:
+    max: 10
+    min: 0
+    sort: hot
+    time: all
+    stickies: false
+    weight: 50
+  wallpapers:
+    max: 5
+    min: 0
+    sort: hot
+    time: all
+    stickies: false
+    weight: 20
+  architectureporn:
+    max: 5
+    min: 0
+    sort: hot
+    time: all
+    stickies: false
+    weight: 20
+
+text:
+  crazyideas:
+    max: 5
+    min: 0
+    sort: hot
+    time: all
+    stickies: false
+    title: true
+    weight: 15
+  showerthoughts:
+    max: 10
+    min: 0
+    sort: hot
+    time: all
+    stickies: false
+    title: true
+    weight: 50
+  nocontext:
+    max: 4
+    min: 0
+    sort: hot
+    time: all
+    stickies: false
+    title: true
+    weight: 10
+
+current:
+  img: []
+  text: []
