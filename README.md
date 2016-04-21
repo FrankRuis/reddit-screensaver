@@ -1,4 +1,4 @@
-# reddit-screensaver
+# Reddit screensaver
 Download images and overlay a title or comment from any subreddit. Use a config file to create a list of possible text and image subreddits, optionally add a weight to the subreddits for a weighted random choice.
 
 An example image: a title from /r/ShowerThoughts and an image from /r/Earthporn.
@@ -62,7 +62,7 @@ current:            # this section is used to store used images and texts to avo
 ```
 
 ## How to use as a screensaver
-I use this on a raspberry pi touchscreen kiosk. You can use any way you to start the ```screensaver.sh``` script on boot, I started mine from the LXSession autostart file.
+I use this on a raspberry pi touchscreen kiosk. You can use any way you want to start the ```screensaver.sh``` script on boot, I started mine from the LXSession autostart file.
 
 I use a cron job to download a new image every 10 minutes by typing ```crontab -e``` and adding:  
 ```*/10 * * * * python /home/pi/reddit-screensaver/redditimg.py &```  
